@@ -1,0 +1,217 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Blaka&family=Lobster&family=Oswald&family=Rubik+Dirt&display=swap');
+h1 {
+
+    font-family: 'Permanent Marker', cursive;
+
+}
+
+a {
+  font-family:'Permanent Marker', cursive;
+
+
+}
+
+h2 {
+
+  font-family: 'Permanent Marker', cursive;
+
+}
+
+
+@media screen and (max-width : 500px) and (max-width:640px)  {
+
+   #textt {
+     display: flex;
+     flex-direction:column;
+      margin-bottom: 30px;
+
+
+
+   }
+
+   #textp {
+
+    margin-top: 20px;
+
+
+
+   }
+
+   #rowround {
+
+      display: flex;
+      flex-direction: column;
+      justify-content:center ;
+      align-items: center;
+   
+   }
+  #poco2 {
+
+    margin-top: 40px;
+    background-color: #2e2bdb;
+    border-radius: 10px;
+    color:white;
+  }
+   
+  #poco3 {
+   margin-top: 40px;
+   background-color: #0f0d5a;
+   border-radius: 10px;
+   color:white;
+  }  
+  #poco1 {
+
+   background-color: #04032c;
+   border-radius: 10px;
+   color:white;
+
+  }
+  #lastsec {
+
+   display:flex;
+   flex-direction: column;
+   margin-top:10px;
+   margin-left: 10px;
+   justify-content: center;
+   align-items: center;
+
+  }
+  
+  #lasttext {
+
+   margin-top: 20px;
+   margin-left: 40px;
+
+  }
+  #div1 {
+
+  display:flex;
+  flex-direction: column;
+
+
+
+  } 
+  
+ #img1 {
+
+     margin-top: 7px;
+ }
+
+}
+
+@media screen and (max-width : 540px) and (max-width:720px) {
+
+  #lastsec {
+
+    display:flex;
+    flex-direction: column;
+    margin-top:10px;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+ 
+   }
+   
+   #lasttext {
+ 
+    margin-top: 20px;
+    margin-left: 40px;
+ 
+   }
+
+
+
+
+} 
+
+
+
+#rowround {
+   background-color: #5451eb;
+   border-radius:20px;
+
+
+} 
+
+
+
+
+
+
+.iconcontainer {
+
+    background-color: #6e6db4;
+    border-radius: 7px;
+
+
+}
+
+
+#btnlast {
+
+  background-color: #f8fcf8; /* Green */
+  border: none;
+  color: rgb(14, 5, 5);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+
+
+}
+
+#imgbg1 {
+
+   border-radius: 13px;
+
+
+}
+
+#div1 {
+
+ background-image: linear-gradient(70deg, #5451eb,#6e6db4, #D388FF);
+
+}
+
+.bg-nav {
+
+ 
+  background-image: linear-gradient(70deg, #5451eb,#6e6db4, #D388FF);
+
+
+}
+
+
+#ulbg {
+
+  background-image: linear-gradient(70deg, #5451eb,#6e6db4, #D388FF);
+
+
+
+}
+
+.textf {
+   height:70px;
+   width: 70px;
+
+
+
+
+
+}
+
+#textch , #imgbg1 {
+
+
+
+   margin-top:60px;
+
+
+
+}
